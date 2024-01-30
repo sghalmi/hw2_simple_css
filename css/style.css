@@ -49,8 +49,10 @@ div {
     background-color: red;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px solid white;
-    border-left: 5px solid white;
+    border-bottom: 2px solid;
+    border-left: 5px solid;
+    border-right: none;
+    border-top: none;
 }
 
 .blue {
@@ -59,6 +61,8 @@ div {
     margin-right: 50px;
     border-right: 5px solid white; 
     border-top: 2px solid white;
+    border-left:none;
+    border-bottom:none;
     color: #C4C4C4
 }
 
@@ -72,6 +76,8 @@ div {
     margin-left: 50px;
     border-bottom: 2px solid white;
     border-left: 5px solid white;
+    border-top:none;
+    border-right:none;
     color: #707070
 }
 
@@ -81,6 +87,8 @@ div {
     margin-right: 50px;
     border-top: 2px solid;
     border-right: 5px solid;
+    border-bottom:none;
+    border-left:none;
 }
 
 footer {
